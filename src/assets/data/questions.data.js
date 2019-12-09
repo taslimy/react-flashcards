@@ -1,4 +1,4 @@
-const Question_Data = {
+const QUESTION_DATA = {
   frontend: {
     id: 1,
     questions: [
@@ -33,4 +33,4 @@ const Question_Data = {
     ]
   }
 };
-export default Question_Data;
+export default QUESTION_DATA;
