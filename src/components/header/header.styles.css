@@ -1,0 +1,23 @@
+.navigation-header {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  box-shadow: 2px 3px 23px rgba(0, 0, 0, 0.1);
+  padding: 1em 3em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-header a {
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #000000;
+  margin-right: 25px;
+}
+
+.navigation-header .logo {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-weight: bold;
+}

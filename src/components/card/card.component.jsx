@@ -8,7 +8,7 @@ class Card extends React.Component {
   render() {
     return (
       <div className="card-container">
-        <h2>Questions</h2>
+        {/* <h2>Questions</h2> */}
         {QUESTIONS_DATA.frontend.questions.map(frontend => (
           <div className="card" key={frontend.id}>
             <ToggleQuestion
