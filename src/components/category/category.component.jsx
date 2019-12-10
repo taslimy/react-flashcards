@@ -6,7 +6,7 @@ const Category = () => {
   return (
     <div className="category-container">
       <div className="category-options">
-        <h2>Categories</h2>
+        <h1>Categories</h1>
         <h4>Frontend Questions</h4>
         <p>General React </p>
         <p>Testing</p>
